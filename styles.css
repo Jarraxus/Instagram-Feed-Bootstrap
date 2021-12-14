@@ -3,3 +3,45 @@
     height: 100%;
     object-fit: cover;
 }
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    padding: 0 0 0 0;
+}
+
+.navbar {
+    padding: 0px 0px 0px 0px;
+}
+
+.navbar-collapse {
+    justify-content: right;
+    padding: .5% 8% .5% 0%;
+}
+.col-4 {
+   padding: 1px 1px 1px 1px;
+}
+
+.navbar-brand {
+    padding-left: 8%;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+}
+
+.btn:hover {
+    background-color: darkgreen;
+}
+.fas fa-th {
+    justify-self: right;
+}
+
+.viewbar {
+    text-align: center;
+}
