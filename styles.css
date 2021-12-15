@@ -41,24 +41,3 @@
 .fas fa-th {
     justify-self: right;
 }
-
-/* (A) LIST VIEW BY DEFAULT */
-#lgDemo {
-    display: grid;
-    grid-template-columns: 50%;
-    grid-gap: .25px;
-    justify-content: center;
-  }
-  #lgDemo .item {
-    padding: 1px;
-  }
-  #lgDemo .item:nth-child(odd) { background: #f7f7f7; }
-  
-  /* (B) TRANSFORM INTO GRID VIEW */
-  #lgDemo.grid { grid-template-columns: 33% 33% 33%; }
-  #lgDemo.grid .item:nth-child(odd) { background: none; }
-
-  .viewbuttons {
-      text-align: center;
-      padding: 5px 2px 5px 2px;
-  }
