@@ -56,46 +56,43 @@
             </div>
         </nav>
     </div>
-    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
       <li class="nav-item" role="presentation">
         <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fas fa-th"></i></button>
       </li>
       <li class="nav-item" role="presentation">
         <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-stop"></i></button>
       </li>
-
     </ul>
+    
+    <!-- Grid View -->
     <div class="tab-content" id="pills-tabContent">
       <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-        <div class="item"><img src="https://phillipbrande.files.wordpress.com/2013/10/random-pic-14.jpg" class="img-fluid" alt="..."></div>
-        <div class="item"><img src="http://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-01.jpg" class="img-fluid" alt="..."></div>
-        <div class="item"><img src="http://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-18.jpg" class="img-fluid" alt="..."></div>
-        <div class="item"><img src="https://media.istockphoto.com/photos/random-multicolored-spheres-computer-generated-abstract-form-of-large-picture-id1295274245?b=1&k=20&m=1295274245&s=170667a&w=0&h=4t-XT7aI_o42rGO207GPGAt9fayT6D-2kw9INeMYOgo=" class="img-fluid" alt="..."></div>
-        <div class="item"><img src="https://www.adoptandshop.org/wp-content/uploads/2020/01/joe-caione-781415-unsplash.jpg" class="img-fluid" alt="..."></div>
-        <div class="item"><img src="https://www.verywellmind.com/thmb/0Ja7TU0dFwQhwR2UUCysIxZzPNU=/500x350/filters:no_upscale():max_bytes(150000):strip_icc()/173604603-56a793443df78cf772974a85.jpg" class="img-fluid" alt="..."></div>
-        <div class="item"><img src="https://www.sciencenews.org/wp-content/uploads/2021/02/022421_mt_number-generator_feat.jpg" class="img-fluid" alt="..."></div>
-        <div class="item"><img src="https://www.verywellmind.com/thmb/Ig6EIsoV2fAk4KexOeBdMDNokrg=/3500x2333/filters:fill(ABEAC3,1)/GettyImages-95442265-958d759dc60b4225929baa289c2a8d40.jpg" class="img-fluid" alt="..."></div>
-        <div class="item"><img src="https://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-02.jpg" class="img-fluid" alt="..."></div>
+        <div class="row">
+          <div class="col-4"><img src="https://phillipbrande.files.wordpress.com/2013/10/random-pic-14.jpg" class="img-fluid" alt="..."></div>
+          <div class="col-4"><img src="http://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-01.jpg" class="img-fluid" alt="..."></div>
+          <div class="col-4"><img src="http://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-18.jpg" class="img-fluid" alt="..."></div>
+          <div class="col-4"><img src="https://media.istockphoto.com/photos/random-multicolored-spheres-computer-generated-abstract-form-of-large-picture-id1295274245?b=1&k=20&m=1295274245&s=170667a&w=0&h=4t-XT7aI_o42rGO207GPGAt9fayT6D-2kw9INeMYOgo=" class="img-fluid" alt="..."></div>
+          <div class="col-4"><img src="https://www.adoptandshop.org/wp-content/uploads/2020/01/joe-caione-781415-unsplash.jpg" class="img-fluid" alt="..."></div>
+          <div class="col-4"><img src="https://www.verywellmind.com/thmb/0Ja7TU0dFwQhwR2UUCysIxZzPNU=/500x350/filters:no_upscale():max_bytes(150000):strip_icc()/173604603-56a793443df78cf772974a85.jpg" class="img-fluid" alt="..."></div>
+          <div class="col-4"><img src="https://www.sciencenews.org/wp-content/uploads/2021/02/022421_mt_number-generator_feat.jpg" class="img-fluid" alt="..."></div>
+          <div class="col-4"><img src="https://www.verywellmind.com/thmb/Ig6EIsoV2fAk4KexOeBdMDNokrg=/3500x2333/filters:fill(ABEAC3,1)/GettyImages-95442265-958d759dc60b4225929baa289c2a8d40.jpg" class="img-fluid" alt="..."></div>
+          <div class="col-4"><img src="https://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-02.jpg" class="img-fluid" alt="..."></div>
+        </div>
       </div>
-      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
 
+
+      <!-- List View -->
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+        <div class="card mx-auto" style="width: 50rem;">
+          <img src="https://phillipbrande.files.wordpress.com/2013/10/random-pic-14.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
       </div>
     </div>
- 
-<!-- Posts -->
-<div id="lgDemo">
-  <div class="item"><img src="https://phillipbrande.files.wordpress.com/2013/10/random-pic-14.jpg" class="img-fluid" alt="..."></div>
-  <div class="item"><img src="http://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-01.jpg" class="img-fluid" alt="..."></div>
-  <div class="item"><img src="http://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-18.jpg" class="img-fluid" alt="..."></div>
-  <div class="item"><img src="https://media.istockphoto.com/photos/random-multicolored-spheres-computer-generated-abstract-form-of-large-picture-id1295274245?b=1&k=20&m=1295274245&s=170667a&w=0&h=4t-XT7aI_o42rGO207GPGAt9fayT6D-2kw9INeMYOgo=" class="img-fluid" alt="..."></div>
-  <div class="item"><img src="https://www.adoptandshop.org/wp-content/uploads/2020/01/joe-caione-781415-unsplash.jpg" class="img-fluid" alt="..."></div>
-  <div class="item"><img src="https://www.verywellmind.com/thmb/0Ja7TU0dFwQhwR2UUCysIxZzPNU=/500x350/filters:no_upscale():max_bytes(150000):strip_icc()/173604603-56a793443df78cf772974a85.jpg" class="img-fluid" alt="..."></div>
-  <div class="item"><img src="https://www.sciencenews.org/wp-content/uploads/2021/02/022421_mt_number-generator_feat.jpg" class="img-fluid" alt="..."></div>
-  <div class="item"><img src="https://www.verywellmind.com/thmb/Ig6EIsoV2fAk4KexOeBdMDNokrg=/3500x2333/filters:fill(ABEAC3,1)/GettyImages-95442265-958d759dc60b4225929baa289c2a8d40.jpg" class="img-fluid" alt="..."></div>
-  <div class="item"><img src="https://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-02.jpg" class="img-fluid" alt="..."></div>
-</div>
-            
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
   </body>
 </html>
