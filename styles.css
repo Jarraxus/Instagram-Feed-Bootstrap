@@ -41,3 +41,6 @@
 .fas fa-th {
     justify-self: right;
 }
+.post-footer {
+    display: flex;
+}
